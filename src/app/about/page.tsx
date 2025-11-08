@@ -6,7 +6,7 @@ export default function AboutPage() {
         <div className="grid gap-8 md:grid-cols-2">
           <div className="text-gray-700 leading-relaxed space-y-4">
             <p>
-              Neutral placeholder: RERA-registered real estate professional focused on
+              Neutral placeholder: K-RERA-registered real estate professional focused on
               transparency, diligence, and client-first service. I help buyers and
               sellers make informed decisions with verified listings and guided processes.
             </p>
@@ -16,7 +16,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="rounded-2xl border border-gray-100 shadow-sm p-6 bg-white">
-            <h3 className="text-lg font-semibold">RERA Registration Details</h3>
+            <h3 className="text-lg font-semibold">K-RERA Registration Details</h3>
             <div className="mt-4 space-y-3 text-sm text-gray-700">
               <div className="flex justify-between"><span>Certificate No.</span><span>XXXXXXXXXX</span></div>
               <div className="flex justify-between"><span>Status</span><span className="text-green-600">Active</span></div>

@@ -23,7 +23,7 @@ export default function ContactPage() {
             <p>Email: hello@example.com</p>
             <p>Phone: +91 00000 00000</p>
             <p>Address: Kochi, Kerala</p>
-            <p>RERA Certificate: XXXXXXXX</p>
+            <p>K-RERA Certificate: XXXXXXXX</p>
             <div className="flex gap-3 pt-2">
               <a href="tel:+910000000000" className="rounded-full bg-blue-600 text-white px-4 py-2 text-sm">Call Now</a>
               <a href="#" className="rounded-full border border-gray-200 px-4 py-2 text-sm">WhatsApp</a>

@@ -3,7 +3,7 @@ export default function ReraPage() {
     <section className="bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 text-white">
       <div className="mx-auto max-w-[1200px] px-4 py-16 grid gap-10 md:grid-cols-2">
         <div>
-          <h1 className="text-3xl md:text-4xl font-bold">RERA Registration</h1>
+          <h1 className="text-3xl md:text-4xl font-bold">K-RERA Registration</h1>
           <ul className="mt-6 space-y-3 text-white/90 list-disc pl-5">
             <li>Transparency</li>
             <li>Legal Compliance</li>
@@ -20,7 +20,7 @@ export default function ReraPage() {
             <div className="flex justify-between"><span>State</span><span>Kerala</span></div>
             <div className="flex justify-between"><span>Status</span><span className="text-green-600">Active</span></div>
           </div>
-          <a href="#" className="mt-6 inline-flex rounded-full bg-blue-600 text-white px-4 py-2 text-sm">Verify on Official RERA Website</a>
+          <a href="#" className="mt-6 inline-flex rounded-full bg-blue-600 text-white px-4 py-2 text-sm">Verify on Official K-RERA Website</a>
         </div>
       </div>
     </section>

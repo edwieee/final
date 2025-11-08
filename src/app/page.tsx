@@ -103,7 +103,7 @@ export default function Home() {
               className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-[0.5px] text-white"
               style={{ textShadow: "0 1px 2px rgba(0,0,0,0.45)" }}
             >
-              Trusted RERA Registered Real Estate Agent
+              Trusted K-RERA Registered Real Estate Agent
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -135,10 +135,10 @@ export default function Home() {
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="space-y-5">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">About Me</h2>
             <p className="text-gray-700 leading-relaxed">
-              RERA-registered real estate professional focused on transparency, diligence, and client-first service. I help buyers and sellers make informed decisions with verified listings and guided processes.
+              K-RERA-registered real estate professional focused on transparency, diligence, and client-first service. I help buyers and sellers make informed decisions with verified listings and guided processes.
             </p>
             <div className="rounded-2xl border border-gray-100 shadow-sm p-6 bg-white">
-              <h3 className="text-lg font-semibold">RERA Registration Details</h3>
+              <h3 className="text-lg font-semibold">K-RERA Registration Details</h3>
               <div className="mt-4 space-y-3 text-sm text-gray-700">
                 <div className="flex justify-between"><span>Certificate No.</span><span>XXXXXXXXXX</span></div>
                 <div className="flex justify-between"><span>Status</span><span className="text-green-600">Active</span></div>
@@ -203,11 +203,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. RERA */}
+      {/* 4. K-RERA */}
       <section id="rera" className="bg-gray-50">
         <div className="mx-auto max-w-[1200px] px-4 py-20 grid gap-10 md:grid-cols-2 items-center">
           <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">RERA Registration</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">K-RERA Registration</h2>
             <ul className="mt-6 space-y-3 text-gray-700 list-disc pl-5">
               <li>Transparency</li>
               <li>Legal Compliance</li>

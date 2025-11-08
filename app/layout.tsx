@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "RERA Registered Real Estate Agent | Trusted Property Services",
+  title: "K-RERA Registered Real Estate Agent | Trusted Property Services",
   description:
-    "Trusted RERA registered real estate agent for buying, selling, and investing in properties. 500+ properties sold with 5+ years of experience.",
+    "Trusted K-RERA registered real estate agent for buying, selling, and investing in properties. 500+ properties sold with 5+ years of experience.",
 };
 
 export default function RootLayout({

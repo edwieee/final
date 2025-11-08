@@ -1,14 +1,14 @@
 # Real Estate Website
 
-A modern, responsive real estate website built with Next.js 16, React 19, and TypeScript. Features a clean UI with RERA certification information, property listings, and contact forms.
+A modern, responsive real estate website built with Next.js 16, React 19, and TypeScript. Features a clean UI with K-RERA certification information, property listings, and contact forms.
 
 ## Features
 
-- 🏠 RERA Registered Real Estate Agent showcase
+- 🏠 K-RERA Registered Real Estate Agent showcase
 - 📱 Fully responsive design
 - ⚡ Built with Next.js 16 and React 19
 - 🎨 Modern UI with Tailwind CSS
-- 📄 Multiple pages: Home, About, Properties, Contact, RERA
+- 📄 Multiple pages: Home, About, Properties, Contact, K-RERA
 
 ## Getting Started
 
