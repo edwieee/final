@@ -1,8 +1,9 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { BedDouble, Bath, MapPin } from "lucide-react";
+import { BedDouble, Bath, MapPin, MessageCircle } from "lucide-react";
 import { MapSection } from "@/components/map-section";
+import Link from "next/link";
 
 const propertyImages = [
   // Switched to Pexels CDN for hotlink-friendly, reliable images
@@ -169,12 +170,31 @@ export default function Home() {
                   <span className="absolute left-3 top-3 rounded-full bg-emerald-600 text-white text-xs px-3 py-1">For Sale</span>
                   <span className="absolute right-3 bottom-3 rounded-full bg-white/90 backdrop-blur px-3 py-1 text-sm font-semibold">{p.price}</span>
                 </div>
-                <div className="p-5 space-y-2">
+                <div className="p-5 space-y-3">
                   <h3 className="font-semibold text-lg">{p.title}</h3>
                   <div className="flex items-center gap-2 text-sm text-gray-600"><MapPin className="h-4 w-4" />{p.location}</div>
                   <div className="flex items-center gap-5 text-sm text-gray-600 pt-2">
-                    <span className="inline-flex items-center gap-2"><BedDouble className="h-4 w-4" /> 5 Bedrooms</span>
-                    <span className="inline-flex items-center gap-2"><Bath className="h-4 w-4" /> 2 Bathroom</span>
+                    <span className="inline-flex items-center gap-2"><BedDouble className="h-4 w-4" />{p.beds} Bedrooms</span>
+                    <span className="inline-flex items-center gap-2"><Bath className="h-4 w-4" />{p.baths} Bathroom</span>
+                  </div>
+                  
+                  {/* View Details Section */}
+                  <div className="pt-4 flex gap-2">
+                    <Link 
+                      href="/property-details"
+                      className="flex-1 text-center rounded-lg border border-gray-300 bg-white text-gray-900 px-4 py-2.5 text-sm font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors"
+                    >
+                      View Details
+                    </Link>
+                    <a
+                      href="https://wa.me/919876543210"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center rounded-lg border border-gray-200 bg-white text-gray-700 px-3 py-2.5 text-sm font-medium hover:bg-gray-50 hover:border-gray-300 transition-colors"
+                      aria-label="WhatsApp"
+                    >
+                      <MessageCircle className="h-4 w-4" />
+                    </a>
                   </div>
                 </div>
               </motion.article>

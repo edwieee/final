@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { MessageCircle } from "lucide-react";
+
 const mock = Array.from({ length: 8 }).map((_, i) => ({
   id: i + 1,
   title: "2BHK Apartment, Kochi",
@@ -32,9 +35,22 @@ export default function PropertiesPage() {
                   <span>{p.baths} Baths</span>
                   <span>{p.sqft} sqft</span>
                 </div>
-                <div className="pt-3 flex gap-3">
-                  <a href="#" className="rounded-full bg-blue-600 text-white px-4 py-2 text-sm">View Details</a>
-                  <a href="#" className="rounded-full border border-gray-200 px-4 py-2 text-sm">WhatsApp</a>
+                <div className="pt-3 flex gap-2">
+                  <Link 
+                    href="/property-details"
+                    className="flex-1 text-center rounded-lg border border-gray-300 bg-white text-gray-900 px-4 py-2.5 text-sm font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors"
+                  >
+                    View Details
+                  </Link>
+                  <a
+                    href="https://wa.me/919876543210"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center rounded-lg border border-gray-200 bg-white text-gray-700 px-3 py-2.5 text-sm font-medium hover:bg-gray-50 hover:border-gray-300 transition-colors"
+                    aria-label="WhatsApp"
+                  >
+                    <MessageCircle className="h-4 w-4" />
+                  </a>
                 </div>
               </div>
             </article>
